@@ -17,7 +17,6 @@ body {
 	--color-link-hover: #111;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: tenon, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -1108,7 +1107,7 @@ https://oreillymedia.github.io/Using_SVG/extras/ch07-textpaths.html */
 	font-family: aktiv-grotesk-extended, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 0.85rem;
+	font-size: 1rem;
 }
 .Go{
 	color: white;
@@ -1130,7 +1129,7 @@ https://oreillymedia.github.io/Using_SVG/extras/ch07-textpaths.html */
 .progress__circle,
 .progress__path {
 	fill: none;
-	stroke: #f0f0f0;
+	stroke: #c9c7b9;
 	stroke-width: 1px;
 }
 
@@ -1139,10 +1138,10 @@ https://oreillymedia.github.io/Using_SVG/extras/ch07-textpaths.html */
 }
 
 .progress__path {
-	stroke: #a6a6a6;
+	stroke: #def700;
 	stroke-dasharray: 1;
 	stroke-dashoffset: 1;
-	transition: stroke-dashoffset 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+	transition: stroke-dashoffset 0.6s cubic-bezier(0.7, 0, 0.3, 1);
 }
 
 .button--fenrir:hover .progress__path {
